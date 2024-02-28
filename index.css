@@ -1,5 +1,5 @@
 .card{
-    border: 5px solid rgba(0, 0, 0, 0.365);
+    border: 5px solid rgba(255, 255, 255, 0);
     color: white;
 }
 
@@ -54,7 +54,7 @@ h1{
 }
 
 .socials a:hover{
-    background-color: rgb(62, 141, 252);
+    background-color: rgb(7, 155, 241);
 }
 
 .address{
@@ -62,13 +62,48 @@ h1{
     font-size: 16px;
 }
 
-#developer{
-    color: rgba(111, 173, 123, 0.774);
-    margin-top: 20px;
-}
+
 
 .navbar-brand span{
     color: red;
 }
 
 
+/* sponsors */
+
+  .sponsor_image{
+    width: 100px;
+    height: 100px;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    margin-top: 70px;
+    background-color: whitesmoke;
+    padding: 8em 2em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+
+
+
+  /* Last design */
+
+  #developer{
+    color: rgba(111, 173, 123, 0.774);
+    margin-top: 20px;
+}
+
+.hovering:hover{
+    color: rgb(7, 155, 241);
+}
